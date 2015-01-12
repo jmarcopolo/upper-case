@@ -19,8 +19,9 @@ npm install upper-case --save
 ```js
 var upperCase = require('upper-case');
 
-upperCase(null);     //=> ""
-upperCase('string'); //=> "STRING"
+upperCase(null);           //=> ""
+upperCase('string');       //=> "STRING"
+upperCase('string', 'tr'); //=> "STRİNG"
 
 upperCase({ toString: function () { return 'test'; } }); //=> "TEST"
 ```

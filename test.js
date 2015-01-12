@@ -7,5 +7,14 @@ describe('upper case', function () {
     assert.equal(upperCase(null), '');
     assert.equal(upperCase('test'), 'TEST');
     assert.equal(upperCase('TEST'), 'TEST');
+    assert.equal(upperCase('string'), 'STRING');
+  });
+
+  it('should support unicode', function () {
+    assert.equal(upperCase('\u0131'), 'I');
+  });
+
+  it('should support locale override', function () {
+    assert.equal(upperCase('i', 'tr'), '\u0130');
   });
 });
