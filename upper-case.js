@@ -9,8 +9,7 @@ var languages = {
   tr: {
     regexp: /[\u0069]/g,
     map: {
-      '\u0069': '\u0130',
-
+      '\u0069': '\u0130'
     }
   },
   az: {
