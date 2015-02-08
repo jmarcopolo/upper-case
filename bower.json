@@ -1,0 +1,24 @@
+{
+  "name": "case-upper",
+  "main": "upper-case.js",
+  "version": "1.1.1",
+  "homepage": "https://github.com/blakeembrey/upper-case",
+  "authors": [
+    "Blake Embrey <hello@blakeembrey.com>"
+  ],
+  "description": "Upper case a string",
+  "keywords": [
+    "cases",
+    "upper",
+    "uppercase",
+    "case"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

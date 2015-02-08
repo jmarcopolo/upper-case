@@ -13,6 +13,7 @@ Supports Unicode (non-ASCII characters) and non-string entities, such as objects
 
 ```
 npm install upper-case --save
+bower install case-upper --save
 ```
 
 ## Usage
