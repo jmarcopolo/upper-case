@@ -1,7 +1,7 @@
 {
   "name": "case-upper",
   "main": "upper-case.js",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "homepage": "https://github.com/blakeembrey/upper-case",
   "authors": [
     "Blake Embrey <hello@blakeembrey.com>"
