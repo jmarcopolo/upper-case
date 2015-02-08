@@ -11,20 +11,20 @@ Supports Unicode (non-ASCII characters) and non-string entities, such as objects
 
 ## Installation
 
-```sh
+```
 npm install upper-case --save
 ```
 
 ## Usage
 
 ```js
-var upperCase = require('upper-case');
+var upperCase = require('upper-case')
 
-upperCase(null);           //=> ""
-upperCase('string');       //=> "STRING"
-upperCase('string', 'tr'); //=> "STRİNG"
+upperCase(null)           //=> ""
+upperCase('string')       //=> "STRING"
+upperCase('string', 'tr') //=> "STRİNG"
 
-upperCase({ toString: function () { return 'test'; } }); //=> "TEST"
+upperCase({ toString: function () { return 'test' } }) //=> "TEST"
 ```
 
 ## License
