@@ -3,8 +3,10 @@
   "version": "1.1.2",
   "description": "Upper case a string",
   "main": "upper-case.js",
+  "typings": "upper-case.d.ts",
   "files": [
     "upper-case.js",
+    "upper-case.d.ts",
     "LICENSE"
   ],
   "scripts": {

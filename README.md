@@ -27,6 +27,10 @@ upperCase('string', 'tr') //=> "STRİNG"
 upperCase({ toString: function () { return 'test' } }) //=> "TEST"
 ```
 
+## Typings
+
+Includes a [TypeScript definition](upper-case.d.ts).
+
 ## License
 
 MIT
